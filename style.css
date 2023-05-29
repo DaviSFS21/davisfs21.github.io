@@ -1,3 +1,9 @@
+:root{
+  --color-white: #fff;
+  --color-black: #1a1a1a;
+  --color-purple: #3600ff;
+}
+
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -18,11 +24,11 @@
     left: 0;
     right: 0;
     z-index: 99;
-    color: white;
+    color: var(--color-white);
     padding: 0 10vw;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background-color: #1a1a1a;
+    background-color: var(--color-black);
   }
   
   header .wraper {
@@ -54,18 +60,19 @@
   
   header .wraper .navbar ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--color-white);
     padding: 0.7rem;
     -webkit-transition: all 0.2s ease;
     transition: all 0.5s ease;
     font-size: 20px;
     font-weight: 600;
     border-radius: 10px;
+
   }
   
   header .wraper .navbar ul li:hover a {
-    background-color: #3600ff;
-    color: #ffffff;
+    background-color: var(--color-purple);
+    color: var(--color-white);
   }
   
   header .wraper .navbar ul li:last-child {
@@ -73,9 +80,9 @@
   }
   
   header .wraper .navbar ul .active-link {
-    color: #1a1a1a;
+    color: var(--color-black);
     font-weight: 900;
-    background-color: #ffffff;
+    background-color: var(--color-white);
   }
   
   header .wraper .mobil-menu {
@@ -87,7 +94,7 @@
   }
   
   .header.haeder-dark .navbar ul li a.active-link {
-    color: #ffffff;
+    color: var(--color-white);
   }
   
   section {
@@ -96,7 +103,7 @@
   
   .main-section {
     background: #3600ff;
-    background: linear-gradient(45deg, #3600ff 9%, #7c00ff 100%);   
+    background: linear-gradient(45deg, var(--color-purple) 9%, #7c00ff 100%);   
     background-size: cover;
     background-position: center;
     display: -webkit-box;
@@ -110,7 +117,7 @@
             justify-content: center;
     position: relative;
     flex-direction: column;
-    color: #ffffff;
+    color: var(--color-white);
   }
   
   .title .letter {
@@ -120,9 +127,9 @@
   }
 
   .subtitle {
-    font-size: 40px;
+    font-size: 2em;
     font-weight: 200;
-    margin-top: 10px;
+    margin-top: 1em;
     opacity: 0;
     animation: fade-in-animation 1s 0.5s ease-in forwards;
   }
@@ -162,7 +169,7 @@
       transition: transform 0.4s ease;
       transition: transform 0.4s ease, -webkit-transform 0.4s ease;
       height: 100vh;
-      color: #162e44;
+      color: var(--color-purple);
       width: 100vw;
     }
     header .wraper .navbar ul {
@@ -177,7 +184,7 @@
           -ms-flex-direction: column;
               flex-direction: column;
       width: 80%;
-      background-color: white;
+      background-color: var(--color-black);
       height: 100%;
       position: absolute;
       top: 0;
@@ -213,7 +220,7 @@
       height: 4px;
       width: 100%;
       left: 0;
-      background-color: #ff6666;
+      background-color: var(--color-white);
       -webkit-transform: rotate(0deg);
               transform: rotate(0deg);
       opacity: 1;
