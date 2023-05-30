@@ -122,9 +122,26 @@
   .subtitle {
     font-size: 40px;
     font-weight: 200;
+    color: #fff;
     margin-top: 10px;
     opacity: 0;
     animation: fade-in-animation 1s 0.5s ease-in forwards;
+  }
+
+  .projetos {
+    background-color: #1a1a1a;
+    text-align: center;
+  }
+
+  .projetos-grid {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .projetos-grid img {
+    height: 150px;
   }
 
   @keyframes fade-in-animation {
