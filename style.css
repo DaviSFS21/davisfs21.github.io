@@ -197,6 +197,15 @@
     background: linear-gradient(var(--color-black), var(--color-purple));   
   }
 
+  .link{
+    transition: 0.3s ease;
+  }
+
+  .link:hover{
+    transform: translateY(-5px);
+    background-color: var(--color-magenta);
+  }
+
   @keyframes fade-in-animation {
     0% {
       opacity: 0;
