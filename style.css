@@ -102,6 +102,9 @@
   section {
     height: 100vh;
   }
+  .projetos {
+    height: 500vh;
+  }
   
   .main-section {
     background: var(--color-purple);
@@ -198,12 +201,28 @@
   }
 
   .link{
+    -webkit-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 30px -8px rgba(0,0,0,0.75);
+    margin-top: 30px;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 2em;
+    border-radius: 15px;
+    background-color: var(--color-purple);
     transition: 0.3s ease;
   }
 
   .link:hover{
     transform: translateY(-5px);
     background-color: var(--color-magenta);
+  }
+
+  .column-divider {
+    height: 100%;
+    width: 2px;
+    background-color: var(--color-white); /* Cor da barra */
+    margin-left: -1px; /* Para alinhar a barra com as colunas */
   }
 
   @keyframes fade-in-animation {

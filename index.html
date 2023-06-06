@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" id="favicon" type="image/png" href="assets/Logo.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,7 @@
     rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Document</title>
+    <title>Davi Soares</title>
 </head>
 <body>
 <header class="header">
@@ -87,33 +88,50 @@
         </div>
         <a  href="https://github.com/DaviSFS21/Pai_Filhos-FS" style="text-decoration: none;">
             <div class="row link" style="--bs-gutter-x: 0;
-                -webkit-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
-                -moz-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
-                box-shadow: 10px 10px 30px -8px rgba(0,0,0,0.75);
                 margin-left: 10em;
                 margin-right: 10em;
-                padding: 2em;
-                border-radius: 15px;
             ">
-                <div class="col-6"><img src="assets/Print-PF.png" width="400px" alt="Pai & Filhos" style="margin-left: 10%;"></div>
+                <div class="col-6">
+                    <img src="assets/Print-PF.png" width="400px" alt="Pai & Filhos" style="margin-left: 8%;">
+                </div>
                 <div class="col-6"><p style="text-align: center;">
-                    e-Commerce Pai & Filhos
-                    <br><br>
-                    Projeto feito em 2 meses, entre outubro e novembro de 2022, com Gustavo Varella e Matheus Schiavão.
-                    <br><br>
-                    Um marketplace de cama, mesa e banho realizado para um trabalho de escola. O projeto é feito com HTML, CSS, SCSS, JavaScript e PHP, 
-                    além dos frameworks Bootstrap, W3.CSS, Cloudfare e jQuery.
+                    <div style="margin-top: -15px;">
+                        <p style="font-size: 32px; font-weight: 500;">e-Commerce Pai & Filhos</p>
+                        Projeto feito em 2 meses, entre outubro e novembro de 2022, com Gustavo Varella e Matheus Schiavão.
+                        <br>
+                        Um marketplace de cama, mesa e banho realizado para um trabalho de escola. O projeto é feito com HTML, CSS, SCSS, JavaScript e PHP, 
+                        além dos frameworks Bootstrap, W3.CSS, Cloudfare e jQuery.
+                    </div>
                 </p>
                 </div>
             </div>
         </a>
+        <div class="row" style="--bs-gutter-x: 0;">
+            <a href="https://github.com/DaviSFS21/upl_img" style="text-decoration: none;">
+                <div class="col-4 link">
+                    <img src="assets/Print-upl_img.png" width="400px" alt="Upload de imagem">
+                    <br><br>
+                    <p style="font-size: 32px; font-weight: 500; padding: 0;">Upload de Imagens</p>
+                    Projeto concluído em 5 dias, desenvolvido para aprender a manipular imagens após seu upload no PHP, 
+                    além de entender, na prática, qual a utilidade de cada variável referente ao arquivo.
+                </div>
+            </a>
+        </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        //init da biblioteca de elementos responsivos ao scroll do usuário
+        AOS.init();
+
+        //Código para alternar o ícone do site dependendo do tema do navegador
+        var prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        if (prefersDarkMode) {
+            document.getElementById('favicon').href = 'assets/Logo2.png';
+        }
     </script>
 </body>
 </html>
