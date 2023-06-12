@@ -19,7 +19,7 @@
   }
   
   header {
-    height: 100px;
+    height: 6.5em;
     background-color: transparent;
     position: absolute;
     top: 0;
@@ -197,7 +197,7 @@
   }
 
   .projetos{
-    background: linear-gradient(var(--color-black), var(--color-purple));   
+    background: linear-gradient(var(--color-black) 4%, var(--color-purple));   
   }
 
   .link{
