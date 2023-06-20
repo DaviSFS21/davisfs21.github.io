@@ -198,8 +198,6 @@
 
   .projetos{
     background: linear-gradient(var(--color-black) 4%, var(--color-purple));
-    padding-right: 5%;   
-    padding-left: 5%;
   }
 
   .link{
@@ -226,7 +224,6 @@
     box-shadow: 10px 10px 30px -8px rgba(0,0,0,0.75);
     margin-top: 30px;
     margin-right: 5em;
-    margin-left: 5em;
     padding: 2em;
     border-radius: 15px;
     background-color: var(--color-purple);
@@ -234,6 +231,23 @@
   }
 
   .link-2:hover{
+    transform: translateY(-5px);
+    background-color: var(--color-magenta);
+  }
+
+  .link-3{
+    -webkit-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 30px -8px rgba(0,0,0,0.75);
+    margin-top: 30px;
+    padding: 2em;
+    border-radius: 15px;
+    background-color: var(--color-purple);
+    transition: 0.3s ease;
+    float: right;
+  }
+
+  .link-3:hover{
     transform: translateY(-5px);
     background-color: var(--color-magenta);
   }
