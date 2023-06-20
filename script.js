@@ -4,6 +4,16 @@ const navbar_links_items = document.querySelectorAll(".navbar-links li a");
 const mainSection = document.querySelector(".main-section");
 const header_el = document.querySelector(".header");
 
+//init da biblioteca de elementos responsivos ao scroll do usuário
+AOS.init();
+
+//Código para alternar o ícone do site dependendo do tema do navegador
+var prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (prefersDarkMode) {
+    document.getElementById('favicon').href = 'assets/Logo2.png';
+}
+
 let mobiel_menu_open = false;
 
 let options = {

@@ -13,6 +13,11 @@
     font-family: "Quicksand", sans-serif;
     color: var(--color-white);
   }
+
+  a{
+    text-decoration: none !important;
+    color: var(--color-white) !important;
+  }
   
   ul {
     list-style-type: none;
@@ -200,6 +205,10 @@
     background: linear-gradient(var(--color-black) 4%, var(--color-purple));
   }
 
+  .col-md-6{
+    width: 48% !important;
+  }
+
   .link{
     -webkit-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
@@ -223,7 +232,7 @@
     -moz-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 30px -8px rgba(0,0,0,0.75);
     margin-top: 30px;
-    margin-right: 5em;
+    margin-right: auto;
     padding: 2em;
     border-radius: 15px;
     background-color: var(--color-purple);
