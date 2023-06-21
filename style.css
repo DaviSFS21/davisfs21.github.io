@@ -2,6 +2,7 @@
   --color-white: #fff;
   --color-black: #1a1a1a;
   --color-purple: #3600ff;
+  --color-dark-purple: #10004b;
   --color-magenta: #7c00ff;
 }
 
@@ -107,9 +108,6 @@
   section {
     height: 100vh;
   }
-  .projetos {
-    height: 500vh;
-  }
   
   .main-section {
     background: var(--color-purple);
@@ -202,29 +200,32 @@
   }
 
   .projetos{
-    background: linear-gradient(var(--color-black) 4%, var(--color-purple));
+    background: linear-gradient(var(--color-black), var(--color-purple));
+    height: 150vh;
   }
 
   .col-md-6{
     width: 48% !important;
   }
 
+  .proj-info{
+    text-align: center;
+    padding: 2em !important;
+  }
+
   .link{
     -webkit-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 30px -8px rgba(0,0,0,0.75);
-    margin-top: 30px;
-    margin-right: 5em;
-    margin-left: 5em;
     padding: 2em;
     border-radius: 15px;
-    background-color: var(--color-purple);
+    background-color: var(--color-black);
     transition: 0.3s ease;
   }
 
   .link:hover{
     transform: translateY(-5px);
-    background-color: var(--color-magenta);
+    background-color: var(--color-dark-purple);
   }
 
   .link-2{
@@ -235,13 +236,13 @@
     margin-right: auto;
     padding: 2em;
     border-radius: 15px;
-    background-color: var(--color-purple);
+    background-color: var(--color-black);
     transition: 0.3s ease;
   }
 
   .link-2:hover{
     transform: translateY(-5px);
-    background-color: var(--color-magenta);
+    background-color: var(--color-dark-purple);
   }
 
   .link-3{
@@ -251,14 +252,14 @@
     margin-top: 30px;
     padding: 2em;
     border-radius: 15px;
-    background-color: var(--color-purple);
+    background-color: var(--color-black);
     transition: 0.3s ease;
     float: right;
   }
 
   .link-3:hover{
     transform: translateY(-5px);
-    background-color: var(--color-magenta);
+    background-color: var(--color-dark-purple);
   }
 
   .column-divider {
