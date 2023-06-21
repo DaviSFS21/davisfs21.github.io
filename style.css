@@ -2,7 +2,7 @@
   --color-white: #fff;
   --color-black: #1a1a1a;
   --color-purple: #3600ff;
-  --color-dark-purple: #10004b;
+  --color-dark-purple: #24116c;
   --color-magenta: #7c00ff;
 }
 
@@ -105,10 +105,6 @@
     color: var(--color-white);
   }
   
-  section {
-    height: 100vh;
-  }
-  
   .main-section {
     background: var(--color-purple);
     background: linear-gradient(45deg, var(--color-purple) 9%, var(--color-magenta) 100%);
@@ -117,6 +113,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: 100vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -126,6 +123,19 @@
     position: relative;
     flex-direction: column;
     color: var(--color-white);
+  }
+  
+  .main-section h1 {
+    font-size: 120px;
+    letter-spacing: 20px;
+    font-weight: 100;
+    margin-bottom: -30px;
+  }
+  
+  .main-section p {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
   }
   
   .title .letter {
@@ -262,13 +272,7 @@
     background-color: var(--color-dark-purple);
   }
 
-  .column-divider {
-    height: 100%;
-    width: 2px;
-    background-color: var(--color-white); /* Cor da barra */
-    margin-left: -1px; /* Para alinhar a barra com as colunas */
-  }
-
+  /* Fade-in para o "fullstack dev" */
   @keyframes fade-in-animation {
     0% {
       opacity: 0;
@@ -276,19 +280,6 @@
     100% {
       opacity: 1;
     }
-  }
-  
-  .main-section h1 {
-    font-size: 120px;
-    letter-spacing: 20px;
-    font-weight: 100;
-    margin-bottom: -30px;
-  }
-  
-  .main-section p {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
   }
   
   @media screen and (max-width: 500px) {
