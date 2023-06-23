@@ -257,14 +257,10 @@
     padding: 2em;
   }
 
-  .rodape{
-    background: var(--color-black);
-    height: 40vh;
-  }
-
   .contatos{
-    margin-top: auto;
-    margin-bottom: auto;
+    background: var(--color-black);
+    height: 70vh;
+    line-height: 32px;
   }
   
   @media screen and (max-width: 500px) {
