@@ -4,6 +4,7 @@
   --color-purple: #3600ff;
   --color-red: #8b0000;
   --color-magenta: #7c00ff;
+  --color-gray: #3e3d41;
 }
 
 * {
@@ -91,7 +92,7 @@
   }
   
   header .wraper .navbar ul li:hover a {
-    background-color: var(--color-red);
+    background-color: var(--color-purple);
     color: var(--color-white);
   }
   
@@ -214,9 +215,9 @@
   .data{
     margin-top: 30px;
   }
-  .hire{
+  .btn-contatos{
     font-size: 18px;
-    background: var(--color-purple);
+    background: var(--color-gray);
     color: var(--color-white);
     text-decoration: none;
     border: none;
@@ -225,12 +226,12 @@
     transition: 0.5s;
     font-weight: 600;
   }
-  .hire:hover{
-    background: var(--color-red);
+  .btn-contatos:hover{
+    background: var(--color-purple);
   }
 
   .projetos{
-    background: linear-gradient(var(--color-black), var(--color-red));
+    background: linear-gradient(var(--color-black), var(--color-gray));
     height: 100%;
     padding-bottom: 5%;
   }
@@ -288,14 +289,6 @@
       padding: 10px 0;
       margin-bottom: 30px;
   }
-  .address-box .add-icon {
-      background: var(--color-black);
-      height: 75px;
-      line-height: 75px;
-      width: 75px;
-      margin-right: 20px;
-      text-align: center;
-  }
   .add-content{
       padding-left: 70px;
   }
@@ -306,123 +299,12 @@
       font-weight: 500;
       margin-bottom: 10px;
   }
-  .add-content p {
-      font-size: 13px;
-      color: #999999;
-      font-weight: 300;
-  }
-  .add-content p a{
-      font-size: 14px;
-      color: #999999;
-      font-weight: 300;
-      word-wrap: break-word;
-  }
-  .add-content p a:hover{
-      color: #ffb32d;
-  }
 
   .footer-2{
       background: linear-gradient(135deg, #3600ff , #7c00ff);
   }
   /* Footer */
   
-  @media screen and (max-width: 500px) {
-    header .wraper .navbar {
-      position: absolute;
-      top: 0;
-      right: 0;
-      z-index: 8;
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-      -webkit-transition: -webkit-transform 0.4s ease;
-      transition: -webkit-transform 0.4s ease;
-      transition: transform 0.4s ease;
-      transition: transform 0.4s ease, -webkit-transform 0.4s ease;
-      height: 100vh;
-      color: var(--color-purple);
-      width: 100vw;
-    }
-    header .wraper .navbar ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      width: 80%;
-      background-color: var(--color-black);
-      height: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      padding-top: 100px;
-      z-index: 9;
-    }
-    header .wraper .navbar ul li {
-      margin: 1.5rem;
-    }
-    header .wraper .navbar ul li a {
-      font-size: 1.3rem;
-    }
-    header .wraper .navbar-links__togle {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    header .wraper .mobil-menu {
-      display: block;
-      cursor: pointer;
-      position: relative;
-      z-index: 9;
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-      -webkit-transition: 0.5s ease-in-out;
-      transition: 0.5s ease-in-out;
-      width: 40px;
-      height: 45px;
-    }
-    header .wraper .mobil-menu span {
-      position: absolute;
-      display: block;
-      height: 4px;
-      width: 100%;
-      left: 0;
-      background-color: var(--color-white);
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-      opacity: 1;
-      border-radius: 10px;
-      -webkit-transition: 0.25s ease-in-out;
-      transition: 0.25s ease-in-out;
-    }
-    header .wraper .mobil-menu span:nth-child(1) {
-      top: 0px;
-    }
-    header .wraper .mobil-menu span:nth-child(2) {
-      top: 10px;
-    }
-    header .wraper .mobil-menu span:nth-child(3) {
-      top: 20px;
-    }
-    header .wraper .mobil-menu.open span:nth-child(1) {
-      top: 20px;
-      -webkit-transform: rotate(135deg);
-              transform: rotate(135deg);
-    }
-    header .wraper .mobil-menu.open span:nth-child(2) {
-      top: 20px;
-      opacity: 0;
-      left: -60px;
-    }
-    header .wraper .mobil-menu.open span:nth-child(3) {
-      top: 20px;
-      -webkit-transform: rotate(-135deg);
-              transform: rotate(-135deg);
-    }
-    .main-section h1 {
-      font-size: 3rem;
-    }
+  @media screen and (max-width: 720px) {
+    
   }
