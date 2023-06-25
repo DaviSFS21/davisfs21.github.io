@@ -15,6 +15,18 @@
     color: var(--color-white);
   }
 
+  h2{
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+  }
+
+  h5{
+    font-family: 'Bebas Neue';
+    font-size: 32px !important;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
   a{
     text-decoration: none !important;
     color: var(--color-white) !important;
@@ -145,6 +157,7 @@
   }
 
   .subtitle {
+    font-family: 'Quicksand';
     font-size: 2em;
     font-weight: 200;
     color: var(--color-white);
@@ -169,10 +182,12 @@
     padding: 90px 0;
     background: var(--color-black);
   }
+
   .pic{
     height: auto;
     width:  350px;
   }
+
   .about{
     width: 1130px;
     max-width: 85%;
@@ -181,23 +196,20 @@
     align-items: center;
     justify-content: space-around;
   }
+
   .text{
     width: 540px;
   }
+
   .text h2{
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 30px;
   }
-  .text h5{
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 20px;
-  }
+
   .text p{
     font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 1px;
+    line-height: 22px;
   }
   .data{
     margin-top: 30px;
@@ -262,6 +274,57 @@
     height: 70vh;
     line-height: 32px;
   }
+
+  /* Footer */
+  .footer-main{
+    padding-top: 50px;
+    background: var(--color-black);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .address-box {
+      padding: 10px 0;
+      margin-bottom: 30px;
+  }
+  .address-box .add-icon {
+      background: var(--color-black);
+      height: 75px;
+      line-height: 75px;
+      width: 75px;
+      margin-right: 20px;
+      text-align: center;
+  }
+  .add-content{
+      padding-left: 70px;
+  }
+  .add-content h5 {
+      font-size: 17px;
+      color: var(--color-white);
+      padding: 0;
+      font-weight: 500;
+      margin-bottom: 10px;
+  }
+  .add-content p {
+      font-size: 13px;
+      color: #999999;
+      font-weight: 300;
+  }
+  .add-content p a{
+      font-size: 14px;
+      color: #999999;
+      font-weight: 300;
+      word-wrap: break-word;
+  }
+  .add-content p a:hover{
+      color: #ffb32d;
+  }
+
+  .footer-2{
+      background: linear-gradient(135deg, #3600ff , #7c00ff);
+  }
+  /* Footer */
   
   @media screen and (max-width: 500px) {
     header .wraper .navbar {
