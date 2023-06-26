@@ -17,34 +17,37 @@
     <title>Davi Soares</title>
 </head>
 <body>
-<header class="header">
-    <div class="wraper">
-        <div class="logo">
-            <p><img src="assets/Logo2.png" width="70" height="70"></img></p>
-        </div>
-        <nav class="navbar">
-            <ul class="navbar-links">
-                <li><a href="#sobre">About Me</a></li>
-                <li><a href="#projetos">Projects</a></li>
-                <li><a href="#contatos">Contacts</a></li>
-                <li><a href="index.html"><img src="assets/brazil.png" height="35px" alt="pt-site"></a></li>
-            </ul>
-        </nav>
-        <div class="mobil-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-        </div>
-    </div>
-</header>
-<main>
-    <section class="main-section">
-        <h1 class="title">Davi Soares</h1>
-        <h2 class="subtitle">fullstack dev</h2>
-    </section>
-</main>
+    <a id="back-top"></a>
 
-    <section id="sobre" class="about-us">
+    <header class="header">
+        <div class="wraper">
+            <div class="logo">
+                <p><img src="assets/Logo2.png" width="70" height="70"></img></p>
+            </div>
+            <nav class="navbar">
+                <ul class="navbar-links">
+                    <li><a href="index.html"><img src="assets/brazil.png" height="35px" alt="pt-site"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main-section">
+            <h1 class="title">Davi Soares</h1>
+            <h2 class="subtitle">fullstack dev</h2>
+        </section>
+        <a href="#sobre"
+        data-aos="fade-left"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="350"
+        data-aos-offset="0"
+        data-aos-duration="1400">
+            <div class="scroll-down"></div>
+            <div class="scroll-desc">About me</div>
+        </a>
+    </main>
+
+    <section id="sobre" class="about-me">
         <div class="about">
             <img src="assets/sf21.png" class="pic" alt="Davi">
             <div class="text">
@@ -67,7 +70,7 @@
                     staying up to date with trends, and learning new things. <br>
                     Here are some of the technologies that I study and specialize in:
                 </p>
-                <div style="font-size: 50px; margin-right: 10px;">
+                <div class="style-icons">
                     <i class="devicon-html5-plain"></i>
                     <i class="devicon-css3-plain"></i>
                     <i class="devicon-javascript-plain"></i>
@@ -78,7 +81,7 @@
                     <i class="devicon-photoshop-plain"></i>
                 </div>
                 <div class="data">
-                    <a href="#contatos" class="btn-contatos">Contacts</a>
+                    <a href="#projetos" class="btn-contatos">Projects</a>
                 </div>
             </div>
         </div>
@@ -146,7 +149,7 @@
                 <div class="col-md-6"
                 data-aos="fade-up"
                 data-aos-easing="ease-in-out"
-                data-aos-delay="150"
+                data-aos-delay="450"
                 data-aos-offset="0"
                 data-aos-duration="1400">
                     <div class="link link-3">
@@ -202,12 +205,13 @@
         </div>
         <footer class="footer-2 text-center text-white">
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            Made Davi Soares. © 2023 All Rights Reserved.
+            Made by Davi Soares. © 2023 All Rights Reserved.
             </div>
         </footer>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
