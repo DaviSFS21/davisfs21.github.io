@@ -1,4 +1,3 @@
-//Script para reescrever a div do title quando a página for redimensionada
 //Efeito em JS na class .title
 var textWrapper = document.querySelector('.title');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");

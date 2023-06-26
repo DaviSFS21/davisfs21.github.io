@@ -125,12 +125,6 @@
     margin-bottom: -30px;
   }
   
-  .main-section p {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-  }
-  
   .title .letter {
     display: inline-block;
     line-height: 1.4em;
@@ -142,7 +136,6 @@
     font-size: 2em;
     font-weight: 200;
     color: var(--color-white);
-    margin-top: 1em;
     opacity: 0;
     animation: fade-in-animation 1s 0.5s ease-in forwards;
   }
@@ -230,7 +223,7 @@
     font-style: normal;
     font-size: 2em;
     line-height: 50px;
-    color: #fff;
+    color: var(--color-white);
   }
   #back-top:hover {
     cursor: pointer;
@@ -309,6 +302,13 @@
     padding-bottom: 5%;
   }
 
+  .projetos h2{
+    font-size: 70px; 
+    padding-bottom: 10px; 
+    margin-top: 0; 
+    text-align: center;
+  }
+
   .col-md-6{
     width: 48% !important;
   }
@@ -334,12 +334,12 @@
   }
 
   .link-2{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: auto;
   }
 
   .link-3{
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 2em;
   }
 
@@ -374,23 +374,27 @@
   }
 
   .footer-2{
-      background: linear-gradient(135deg, #3600ff , #7c00ff);
+      background: linear-gradient(135deg, var(--color-purple), var(--color-magenta));
   }
   /* Footer */
   
   @media screen and (max-width: 720px) {
-    .title {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .main-section h1{
+      font-size: 60px;
+      letter-spacing: 10px;
+      margin-bottom: -10px;
     }
-    
-    .title .letter {
-      text-align: center;
+
+    .subtitle{
+      font-size: 25px;
     }
 
     .about{
       display: block;
+    }
+
+    .about-me{
+      padding: 60px 0;
     }
 
     .text{
@@ -400,7 +404,24 @@
       margin-top: 25px;
     }
 
+    .projetos h2{
+      font-size: 50px;
+    }
+
+    .col-6{
+      width: 100% !important;
+      text-align: center;
+    }
+
+    .col-6 img{
+      margin-bottom: 20px;
+    }
+
     .col-md-6{
       width: 100% !important;
     }
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
   }
