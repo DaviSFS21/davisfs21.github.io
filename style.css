@@ -88,11 +88,6 @@
     border-radius: 10px;
 
   }
-  
-  header .wraper .navbar ul li:hover a {
-    background-color: var(--color-purple);
-    color: var(--color-white);
-  }
 
   header .wraper .mobil-menu {
     display: none;
@@ -167,8 +162,8 @@
     position: absolute;
     top: 20%;
     left: 50%;
-    height: 5px;
-    width: 5px;
+    height: 7px;
+    width: 7px;
     transform: translate(-50%, -100%);
     background-color: var(--color-white);
     border-radius: 10px;
@@ -380,6 +375,11 @@
   /* Footer */
   
   @media screen and (max-width: 720px) {
+      
+    header .wraper .navbar ul li {
+      margin: 0.5rem 0;
+    }
+
     .main-section h1{
       font-size: 60px;
       letter-spacing: 10px;
