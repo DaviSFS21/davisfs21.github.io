@@ -246,11 +246,12 @@
   .pic{
     height: auto;
     width:  320px;
+    margin-right: 20px;
   }
 
   .about{
     width: 1130px;
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -389,23 +390,37 @@
       font-size: 25px;
     }
 
-    .about{
-      display: block;
-    }
-
     .about-me{
       padding: 60px 0;
+    }
+
+    .about{
+      display: block;
     }
 
     .text{
       width: fit-content;
     }
     .text h2{
+      font-size: 35px;
       margin-top: 25px;
     }
 
     .projetos h2{
       font-size: 50px;
+    }
+
+    .proj-info{
+      padding: 0 !important;
+    }
+
+    .link-2{
+      margin-top: 0;
+    }
+
+    .link-3{
+      margin-top: 3em;
+      margin-bottom: 2em;
     }
 
     .col-6{
@@ -420,6 +435,10 @@
     .col-md-6{
       width: 100% !important;
     }
+  }
+
+  .add-content{
+    padding-left: 5%;
   }
 
   ::-webkit-scrollbar {

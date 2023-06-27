@@ -16,7 +16,7 @@ anime.timeline({loop: false})
 /* Script para o botão back to top */
 
 var btn = $('#back-top');
-var divDeReferencia = $('#sobre');
+var divDeReferencia = $('.scroll-desc');
 
 $(window).scroll(function() {
   var posicaoDivReferencia = divDeReferencia.offset().top;
