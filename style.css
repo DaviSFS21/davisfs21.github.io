@@ -209,7 +209,7 @@
   
   @keyframes scroll-down {
     0% {
-      top: 30%;
+      top: 80%;
       opacity: 0;
     }
     30% {
@@ -219,7 +219,7 @@
       opacity: 1;
     }
     100% {
-      top: 80%;
+      top: 30%;
       opacity: 0;
     }
   }
