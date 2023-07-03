@@ -129,6 +129,18 @@
   header .wraper .mobil-menu {
     display: none;
   }
+
+  @keyframes desaparecer {
+    0% { opacity: 1; }
+    100% { 
+      opacity: 0; 
+      display: none; 
+    }
+  }
+
+  .sugest-trad {
+      animation: desaparecer 1s forwards 4.5s;
+  }
   
   .main-section {
     background: var(--color-purple);
@@ -155,6 +167,10 @@
     letter-spacing: 20px;
     font-weight: 100;
     margin-bottom: -30px;
+  }
+
+  .title{
+    padding-left:20px;
   }
   
   .title .letter {
@@ -421,6 +437,10 @@
       font-size: 60px;
       letter-spacing: 10px;
       margin-bottom: -10px;
+    }
+
+    .title{
+      padding-left: 10px;
     }
 
     .subtitle{
