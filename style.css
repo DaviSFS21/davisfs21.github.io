@@ -367,6 +367,12 @@
     padding: 2em !important;
   }
 
+  .row .link{
+    --bs-gutter-x: 0; 
+    height: auto; 
+    margin-bottom: 3%;
+  }
+
   .link{
     padding: 2em;
     border-radius: 15px;

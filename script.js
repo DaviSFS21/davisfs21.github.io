@@ -1,6 +1,6 @@
 //Script para loading
 document.addEventListener('DOMContentLoaded', function() {
-  // Simulando um evento de finalização do carregamento após 3 segundos
+  // Simulando um evento de finalização do carregamento após 0,5 segundos
   setTimeout(function() {
     var loading = document.querySelector('.loading');
     loading.classList.add('fade-out');
