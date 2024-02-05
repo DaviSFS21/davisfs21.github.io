@@ -457,8 +457,9 @@
     }
 
     .pic{
-      width: 250px;
+      width: 300px;
       margin-right: 0;
+      justify-content: center;
     }
 
     .title{
@@ -521,5 +522,15 @@
   }
 
   ::-webkit-scrollbar {
-    width: 0;
+    width: 24px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-black);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray);
+    border-radius: 20px;
+    border: 6px solid var(--color-black);
   }
