@@ -222,6 +222,19 @@
     border-radius: 10px;
     animation: scroll-down 1.5s ease-in-out infinite;
   }
+
+  .idv-link{
+    content: url(assets/Logo3.png);
+    width: 150px;
+    height: auto;
+    transition: width .5s;
+  }
+
+/*   .idv-link:hover{
+    content: url(assets/Logo.png);
+    width: 180px;
+    height: auto;
+  } */
   
   @keyframes scroll-down {
     0% {
