@@ -223,18 +223,39 @@
     animation: scroll-down 1.5s ease-in-out infinite;
   }
 
-  .idv-link{
-    content: url(assets/Logo3.png);
+  .imageBox {
+    position: relative;
     width: 150px;
     height: auto;
-    transition: width .5s;
+  }
+  
+  .imageBox img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
   }
 
-/*   .idv-link:hover{
-    content: url(assets/Logo.png);
-    width: 180px;
-    height: auto;
-  } */
+  .bottom-img{
+    transition: all .5s;
+  }
+  
+  /* Estilo da imagem que aparece no hover */
+  .hoverImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  /* Efeito de transição suave */
+  .imageBox:hover .hoverImg {
+    opacity: 1;
+  }
+
+  .imageBox:hover .bottom-img {
+    opacity: 0;
+  }
   
   @keyframes scroll-down {
     0% {
