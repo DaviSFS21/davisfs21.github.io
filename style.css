@@ -1,9 +1,8 @@
 :root{
   --color-white: #fff;
   --color-black: #1a1a1a;
-  --color-purple: #3600ff;
-  --color-red: #8b0000;
-  --color-magenta: #7c00ff;
+  --color-primary: #3600ff;
+  --color-secondary: #7c00ff;
   --color-gray: #3e3d41;
 }
 
@@ -143,8 +142,8 @@
   }
   
   .main-section {
-    background: var(--color-purple);
-    background: linear-gradient(45deg, var(--color-purple) 9%, var(--color-magenta) 100%);
+    background: var(--color-primary);
+    background: linear-gradient(45deg, var(--color-primary) 9%, var(--color-secondary) 100%);
     background-size: cover;
     background-position: center;
     display: -webkit-box;
@@ -176,7 +175,7 @@
   .title .letter {
     display: inline-block;
     line-height: 1.4em;
-    font-family: 'Bebas Neue', sans-serif !important;
+    font-family: 'Bebas Neue', sans-serif;
   }
 
   .subtitle {
@@ -309,10 +308,10 @@
   }
   #back-top:hover {
     cursor: pointer;
-    background-color: var(--color-purple);
+    background-color: var(--color-primary);
   }
   #back-top:active {
-    background-color: (var(--color-magenta));
+    background-color: (var(--color-secondary));
   }
   #back-top.show {
     opacity: 1;
@@ -360,7 +359,7 @@
     padding-left: 10px;
     padding-right: 12px;
     background-color: var(--color-white);
-    color: var(--color-purple) !important;
+    color: var(--color-primary) !important;
     border-radius: 10px;
     font-weight: 600;
   }
@@ -385,7 +384,7 @@
     font-weight: 600;
   }
   .btn-contatos:hover{
-    background: var(--color-purple);
+    background: var(--color-primary);
   }
 
   .projetos{
@@ -430,7 +429,7 @@
     -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
     transform: translateY(-5px);
-    background-color: var(--color-purple);
+    background-color: var(--color-primary);
   }
 
   .link-2{
@@ -474,7 +473,7 @@
   }
 
   .footer-2{
-      background: linear-gradient(135deg, var(--color-purple), var(--color-magenta));
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
   }
   /* Footer */
   
