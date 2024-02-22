@@ -489,6 +489,11 @@
       margin-bottom: -10px;
     }
 
+    .logo-idv{
+      height: 100px;
+      font-size: 40px !important;
+    }
+
     .pic{
       width: 300px;
       margin-right: 0;
