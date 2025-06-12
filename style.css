@@ -411,8 +411,7 @@
   }
 
   .row .link{
-    --bs-gutter-x: 0; 
-    height: auto; 
+    min-height: auto; 
     margin-bottom: 3%;
   }
 
